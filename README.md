@@ -1,4 +1,8 @@
 # A CNN based image classification of Plant diseases
+
+##Overview
+This project explores the application of deep learning techniques to detect and classify plant diseases using images. Utilizing Convolutional Neural Networks (CNNs), our study compares the efficacy of different architectures—GoogleNet, MobileNetV2, and EfficientNet—across various datasets with a focus on agricultural applications. The goal is to develop a robust model that enhances the detection of plant diseases at early stages, potentially improving crop management and productivity.
+
 ## Datasets
 1. Cassava Dataset [https://tensorflow.google.cn/datasets/catalog/cassava]: The Cassava dataset features leaf images of the cassava plant, showcasing healthy leaves and four disease conditions: Cassava Mosaic Disease (CMD), Cassava Bacterial Blight (CBB), Cassava Green Mite (CGM), and Cassava Brown Streak Disease (CBSD). It includes 9,430 labeled images
 
