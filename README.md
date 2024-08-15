@@ -3,6 +3,24 @@
 ## Overview
 This project explores the application of deep learning techniques to detect and classify plant diseases using images. Utilizing Convolutional Neural Networks (CNNs), our study compares the efficacy of different architectures—GoogleNet, MobileNetV2, and EfficientNet—across various datasets with a focus on agricultural applications. The goal is to develop a robust model that enhances the detection of plant diseases at early stages, potentially improving crop management and productivity.
 
+## Methodology
+Our methodology consists of:
+
+Data Preprocessing: Standardizing image dimensions, applying various augmentations, and normalizing the data to improve model training.
+Model Training: Evaluating three CNN architectures—GoogleNet, MobileNetV2, and EfficientNet. Models are trained from scratch and also fine-tuned using transfer learning approaches to compare performance.
+Performance Metrics: Models are assessed based on accuracy, precision, recall, and F1 scores. Special attention is given to the robustness and generalization capability across different conditions and datasets.
+Results
+The models demonstrate varying effectiveness across datasets, with EfficientNet generally providing the best balance between performance and computational efficiency. Detailed results of the experiments, including performance metrics and training times, are discussed comprehensively in the project report.
+
+## Usage
+The models developed can be utilized by researchers and practitioners in the agricultural sector for early detection of plant diseases, facilitating timely and effective treatment strategies. This could be particularly beneficial in regions where access to expert knowledge and resources is limited.
+
+## Supplementary Material
+Figures and additional data supporting the findings are included in the final report, providing insights into the models' performance under various conditions.
+
+## References
+A comprehensive list of references supporting this study is available in the final report, detailing the datasets used, methodologies applied, and previous work in the field.
+
 ## Datasets
 1. Cassava Dataset [https://tensorflow.google.cn/datasets/catalog/cassava]: The Cassava dataset features leaf images of the cassava plant, showcasing healthy leaves and four disease conditions: Cassava Mosaic Disease (CMD), Cassava Bacterial Blight (CBB), Cassava Green Mite (CGM), and Cassava Brown Streak Disease (CBSD). It includes 9,430 labeled images
 
