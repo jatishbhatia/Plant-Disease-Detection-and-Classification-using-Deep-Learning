@@ -6,10 +6,11 @@ This project explores the application of deep learning techniques to detect and 
 ## Methodology
 Our methodology consists of:
 
-Data Preprocessing: Standardizing image dimensions, applying various augmentations, and normalizing the data to improve model training.
-Model Training: Evaluating three CNN architectures—GoogleNet, MobileNetV2, and EfficientNet. Models are trained from scratch and also fine-tuned using transfer learning approaches to compare performance.
-Performance Metrics: Models are assessed based on accuracy, precision, recall, and F1 scores. Special attention is given to the robustness and generalization capability across different conditions and datasets.
-Results
+1. Data Preprocessing: Standardizing image dimensions, applying various augmentations, and normalizing the data to improve model training.
+2. Model Training: Evaluating three CNN architectures—GoogleNet, MobileNetV2, and EfficientNet. Models are trained from scratch and also fine-tuned using transfer learning approaches to compare performance.
+3. Performance Metrics: Models are assessed based on accuracy, precision, recall, and F1 scores. Special attention is given to the robustness and generalization capability across different conditions and datasets.
+
+## Results
 The models demonstrate varying effectiveness across datasets, with EfficientNet generally providing the best balance between performance and computational efficiency. Detailed results of the experiments, including performance metrics and training times, are discussed comprehensively in the project report.
 
 ## Usage
