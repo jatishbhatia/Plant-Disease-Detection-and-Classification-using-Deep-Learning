@@ -1,6 +1,6 @@
 # A CNN based image classification of Plant diseases
 
-##Overview
+## Overview
 This project explores the application of deep learning techniques to detect and classify plant diseases using images. Utilizing Convolutional Neural Networks (CNNs), our study compares the efficacy of different architectures—GoogleNet, MobileNetV2, and EfficientNet—across various datasets with a focus on agricultural applications. The goal is to develop a robust model that enhances the detection of plant diseases at early stages, potentially improving crop management and productivity.
 
 ## Datasets
